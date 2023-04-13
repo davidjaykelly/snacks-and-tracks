@@ -1,0 +1,60 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+.page-content{
+  height: calc(100vh - 76px);
+}
+
+.spotify-connect-button {
+  background-color: #1db954;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 500px;
+  padding: 1rem 2rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.spotify-connect-button:hover {
+  background-color: #1ed760;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.spotify-connect-button:focus {
+  outline: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 0px 0px 4px rgba(29, 185, 84, 0.4);
+}
+
+.album {
+  position: relative;
+}
+
+.album-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  opacity: 0;
+}
+
+.album:hover .album-overlay {
+  opacity: 0.9;
+}
+
+.overlay {
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.st {
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+}
+
+.snack span {
+  display: inline-block;
+}
+

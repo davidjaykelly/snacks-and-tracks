@@ -1,0 +1,14 @@
+{
+  "name": "snacks-and-tracks",
+  "version": "0.0.1",
+  "description": "Root folder for Snacks & Tracks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run app\" \"cd frontend && npm start\" "
+  },
+  "author": "David Kelly",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
